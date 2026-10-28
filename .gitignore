@@ -33,3 +33,7 @@ ehthumbs.db
 Desktop.ini
 $RECYCLE.BIN/
 .DS_Store
+
+# AI agent instructions (local only)
+AGENT.md
+agent.md

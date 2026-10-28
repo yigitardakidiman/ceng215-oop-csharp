@@ -1,3 +1,7 @@
+// Full Name: Yiğit Arda Kıdıman
+// Student ID: 240208425
+// Question: Q3 - Temperature Converter
+
 using System;
 
 namespace Q3_TemperatureConverter

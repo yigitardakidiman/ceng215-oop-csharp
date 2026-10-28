@@ -1,3 +1,7 @@
+// Full Name: Yiğit Arda Kıdıman
+// Student ID: 240208425
+// Question: Q2 - Math Course Grade Calculator
+
 using System;
 
 namespace Q2_GradeCalculator

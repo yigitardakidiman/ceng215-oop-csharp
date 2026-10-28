@@ -1,3 +1,7 @@
+// Full Name: Yiğit Arda Kıdıman
+// Student ID: 240208425
+// Question: Q4 - Time Converter
+
 using System;
 
 namespace Q4_TimeConverter

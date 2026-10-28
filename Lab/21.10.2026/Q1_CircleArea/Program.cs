@@ -1,3 +1,7 @@
+// Full Name: Yiğit Arda Kıdıman
+// Student ID: 240208425
+// Question: Q1 - Calculate Circle Area
+
 using System;
 
 namespace Q1_CircleArea
