@@ -1,6 +1,6 @@
 # CENG 215 Course Codes & Assignments 🎓💻
 
-This repository contains the source code for lab work, homework assignments and term projects prepared for the **CENG 215** course.
+This repository contains the source code for in-class lecture exercises, lab sessions, and homework assignments prepared for the **CENG 215** course.
 
 ---
 
@@ -16,6 +16,12 @@ This repository contains the source code for lab work, homework assignments and 
 | Folder / Project | Description | Technology / Language | Status |
 | :--- | :--- | :---: | :---: |
 | [21.10.2026 (Lab Week 1)](./Lab/21.10.2026/) | 5 console applications: circle area (Q1), grade average (Q2), temperature converter (Q3), time converter (Q4), swap values (Q5). | C# / .NET 10.0 (Console) | Completed ✅ |
+| [28.10.2026 (Lab Week 2)](./Lab/28.10.2026/) | 7 console applications: discount (Q1), temperature (Q2), calculator (Q3), even sum (Q4), sum to zero (Q5), validation (Q6), star triangle (Q7). | C# / .NET 10.0 (Console) | Completed ✅ |
+
+### 📚 Lecture / Lesson
+| Folder / Project | Description | Technology / Language | Status |
+| :--- | :--- | :---: | :---: |
+| [NumberChecker](./Lesson/NumberChecker/) | A console application that reads an integer and determines whether it is positive, negative, or zero using conditional statements. | C# / .NET 10.0 (Console) | Completed ✅ |
 
 ---
 
@@ -24,27 +30,45 @@ This repository contains the source code for lab work, homework assignments and 
 ```text
 CENG_215_Codes/
 │
-├── Homework/                        # Homework projects
+├── Homework/                        # Homework assignments
 │   ├── hw1/                         # Homework 1: GradeCalculator (WinForms)
 │   │   ├── GradeCalculator/         # WinForms source code (Form1.cs, Program.cs, etc.)
 │   │   ├── GradeCalculator.slnx     # Solution file
-│   │   └── README.md                # Project documentation
+│   │   └── README.md                # Homework 1 documentation
 │   └── hw2/                         # Homework 2: Basic C# console applications
 │       ├── age_calculator.cs        # Age calculation
 │       ├── number_operations.cs     # Arithmetic operations
 │       ├── rectangle_calculator.cs  # Rectangle area and perimeter
 │       └── README.md                # Homework 2 documentation
 │
-├── Lab/                             # Lab work
+├── Lab/                             # Laboratory sessions
 │   ├── .gitkeep
-│   └── 21.10.2026/                  # Lab Week 1: 5 console projects (Q1-Q5)
-│       ├── Q1_CircleArea/           # Circle area and circumference
-│       ├── Q2_GradeCalculator/      # Midterm/final average and passed/failed
-│       ├── Q3_TemperatureConverter/ # Celsius -> Fahrenheit
-│       ├── Q4_TimeConverter/        # Seconds -> hours/minutes/seconds
-│       ├── Q5_SwapValues/           # Swap using a third variable
-│       ├── Lab_21_10_2026.slnx      # Solution file
-│       └── README.md                # Lab documentation
+│   ├── 21.10.2026/                  # Lab Week 1: 5 console projects (Q1-Q5)
+│   │   ├── Q1_CircleArea/           # Circle area and circumference
+│   │   ├── Q2_GradeCalculator/      # Midterm/final average and passed/failed
+│   │   ├── Q3_TemperatureConverter/ # Celsius -> Fahrenheit
+│   │   ├── Q4_TimeConverter/        # Seconds -> hours/minutes/seconds
+│   │   ├── Q5_SwapValues/           # Swap using a third variable
+│   │   ├── Lab_21_10_2026.slnx      # Solution file
+│   │   └── README.md                # Lab documentation
+│   └── 28.10.2026/                  # Lab Week 2: 7 console projects (Q1-Q7)
+│       ├── Q1_ShoppingDiscount/     # Purchase discount calculator
+│       ├── Q2_TemperatureClassification/ # Temperature classifier
+│       ├── Q3_SimpleCalculator/     # Arithmetic calculator with switch
+│       ├── Q4_EvenNumbersAndSum/    # Even numbers and their sum
+│       ├── Q5_SumUntilZero/         # Sum and count until 0
+│       ├── Q6_NumberValidation/     # Input validation with do-while
+│       ├── Q7_StarTriangle/         # Star triangle pattern
+│       ├── Outputs.pdf              # Execution screenshots PDF
+│       ├── Lab_28_10_2026.slnx      # Solution file
+│       └── README.md                # Lab Week 2 documentation
+│
+├── Lesson/                          # In-class lecture examples & exercises
+│   ├── NumberChecker/               # Positive, negative, or zero checker
+│   │   ├── NumberChecker.csproj     # Project file
+│   │   ├── Program.cs               # Console source code
+│   │   └── README.md                # Project documentation
+│   └── README.md                    # Lesson directory overview
 │
 ├── .gitignore                       # Excludes build output and temporary files
 └── README.md                        # Main repository overview
@@ -56,10 +80,21 @@ CENG_215_Codes/
 
 Each project has its own `README.md` with detailed build and run instructions.
 
-For example, to run the `GradeCalculator` project:
+### Running Windows Forms Projects (e.g. `hw1`):
 ```bash
-git clone https://github.com/yigitardakidiman/CENG215_codes.git
-cd CENG215_codes/Homework/hw1/GradeCalculator
+cd Homework/hw1/GradeCalculator
+dotnet run
+```
+
+### Running Lab Projects (e.g. `Lab/21.10.2026`):
+```bash
+cd Lab/21.10.2026
+dotnet run --project Q1_CircleArea
+```
+
+### Running Lesson Projects (e.g. `Lesson/NumberChecker`):
+```bash
+cd Lesson/NumberChecker
 dotnet run
 ```
 
