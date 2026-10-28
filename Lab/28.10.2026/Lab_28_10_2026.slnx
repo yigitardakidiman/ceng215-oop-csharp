@@ -1,0 +1,9 @@
+﻿<Solution>
+  <Project Path="Q1_ShoppingDiscount/Q1_ShoppingDiscount.csproj" />
+  <Project Path="Q2_TemperatureClassification/Q2_TemperatureClassification.csproj" />
+  <Project Path="Q3_SimpleCalculator/Q3_SimpleCalculator.csproj" />
+  <Project Path="Q4_EvenNumbersAndSum/Q4_EvenNumbersAndSum.csproj" />
+  <Project Path="Q5_SumUntilZero/Q5_SumUntilZero.csproj" />
+  <Project Path="Q6_NumberValidation/Q6_NumberValidation.csproj" />
+  <Project Path="Q7_StarTriangle/Q7_StarTriangle.csproj" />
+</Solution>
