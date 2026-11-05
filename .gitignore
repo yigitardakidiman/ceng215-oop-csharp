@@ -37,3 +37,7 @@ $RECYCLE.BIN/
 # AI agent instructions (local only)
 AGENT.md
 agent.md
+
+# LMS submission archives & staging folders (local only)
+*.zip
+240208425_*
