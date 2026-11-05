@@ -1,0 +1,6 @@
+﻿<Solution>
+  <Project Path="Q1_ExamScoreSummary/Q1_ExamScoreSummary.csproj" />
+  <Project Path="Q2_PatternDesign/Q2_PatternDesign.csproj" />
+  <Project Path="Q3_SortThreeNumbers/Q3_SortThreeNumbers.csproj" />
+  <Project Path="Q4_HollowRectangle/Q4_HollowRectangle.csproj" />
+</Solution>
