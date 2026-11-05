@@ -17,6 +17,7 @@ This repository contains the source code for in-class lecture exercises, lab ses
 | :--- | :--- | :---: | :---: |
 | [21.10.2026 (Lab Week 1)](./Lab/21.10.2026/) | 5 console applications: circle area (Q1), grade average (Q2), temperature converter (Q3), time converter (Q4), swap values (Q5). | C# / .NET 10.0 (Console) | Completed ✅ |
 | [28.10.2026 (Lab Week 2)](./Lab/28.10.2026/) | 7 console applications: discount (Q1), temperature (Q2), calculator (Q3), even sum (Q4), sum to zero (Q5), validation (Q6), star triangle (Q7). | C# / .NET 10.0 (Console) | Completed ✅ |
+| [04.11.2026 (Lab Week 3)](./Lab/04.11.2026/) | 4 console applications: exam summary (Q1), pattern design (Q2), sort 3 numbers (Q3), hollow rectangle (Q4). | C# / .NET 10.0 (Console) | Completed ✅ |
 
 ### 📚 Lecture / Lesson
 | Folder / Project | Description | Technology / Language | Status |
@@ -51,17 +52,24 @@ CENG_215_Codes/
 │   │   ├── Q5_SwapValues/           # Swap using a third variable
 │   │   ├── Lab_21_10_2026.slnx      # Solution file
 │   │   └── README.md                # Lab documentation
-│   └── 28.10.2026/                  # Lab Week 2: 7 console projects (Q1-Q7)
-│       ├── Q1_ShoppingDiscount/     # Purchase discount calculator
-│       ├── Q2_TemperatureClassification/ # Temperature classifier
-│       ├── Q3_SimpleCalculator/     # Arithmetic calculator with switch
-│       ├── Q4_EvenNumbersAndSum/    # Even numbers and their sum
-│       ├── Q5_SumUntilZero/         # Sum and count until 0
-│       ├── Q6_NumberValidation/     # Input validation with do-while
-│       ├── Q7_StarTriangle/         # Star triangle pattern
-│       ├── Outputs.pdf              # Execution screenshots PDF
-│       ├── Lab_28_10_2026.slnx      # Solution file
-│       └── README.md                # Lab Week 2 documentation
+│   ├── 28.10.2026/                  # Lab Week 2: 7 console projects (Q1-Q7)
+│   │   ├── Q1_ShoppingDiscount/     # Purchase discount calculator
+│   │   ├── Q2_TemperatureClassification/ # Temperature classifier
+│   │   ├── Q3_SimpleCalculator/     # Arithmetic calculator with switch
+│   │   ├── Q4_EvenNumbersAndSum/    # Even numbers and their sum
+│   │   ├── Q5_SumUntilZero/         # Sum and count until 0
+│   │   ├── Q6_NumberValidation/     # Input validation with do-while
+│   │   ├── Q7_StarTriangle/         # Star triangle pattern
+│   │   ├── Outputs.pdf              # Execution screenshots PDF
+│   │   ├── Lab_28_10_2026.slnx      # Solution file
+│   │   └── README.md                # Lab Week 2 documentation
+│   └── 04.11.2026/                  # Lab Week 3: 4 console projects (Q1-Q4)
+│       ├── Q1_ExamScoreSummary/     # Exam scores summary
+│       ├── Q2_PatternDesign/        # Checkerboard pattern design
+│       ├── Q3_SortThreeNumbers/     # Sort 3 numbers ascending
+│       ├── Q4_HollowRectangle/      # Hollow rectangle pattern
+│       ├── Lab_04_11_2026.slnx      # Solution file
+│       └── README.md                # Lab Week 3 documentation
 │
 ├── Lesson/                          # In-class lecture examples & exercises
 │   ├── NumberChecker/               # Positive, negative, or zero checker
