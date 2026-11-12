@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Q1_SeparateEvenOdd/Q1_SeparateEvenOdd.csproj" />
+  <Project Path="Q2_DailyExpenseTracker/Q2_DailyExpenseTracker.csproj" />
+  <Project Path="Q3_MatchStudentsCourses/Q3_MatchStudentsCourses.csproj" />
+</Solution>
